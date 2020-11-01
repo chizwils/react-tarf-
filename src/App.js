@@ -6,6 +6,7 @@ import './App.css';
 //import './head/head'
 import Home from './pages/home'
 import Contact from './pages/contact'
+import Work from './pages/work'
 //require ('./js/webflow')
 class App extends Component {
   componentDidMount(){
@@ -33,6 +34,7 @@ class App extends Component {
           <Switch>
             <Route path='/' component={Home}/>
             <Route path="/contact" component={Contact}/>
+            <Route path="/work"component={Work}/>
           </Switch>
           <Footer/>
           <div style={{display:"block"}} className="preloader-half-half">

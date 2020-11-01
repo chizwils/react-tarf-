@@ -1,5 +1,7 @@
+import { Component } from 'react';
+
 class Contact extends Component {
-    state = {  }
+   // state = {  }
     render() { 
         return ( 
             <div>

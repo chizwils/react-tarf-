@@ -1,11 +1,8 @@
-import { Component } from 'react';
-
-class Work extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {  }
-    }
-    render() { 
+import React from 'react';
+const work = () => {
+    
+    
+   
         return (
             <div class="section">
       <div class="work-detail-header">
@@ -69,7 +66,7 @@ class Work extends Component {
     </div>
 
           );
-    }
+    
 }
  
-export default Work;
+export default work;
