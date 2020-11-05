@@ -18,7 +18,7 @@ class Footer extends Component {
           
        
           
-          <a href="http://rd3studio.com" target="_blank" className="link-block-invert margin-right-0_5rem w-inline-block">
+          <a href="http://rd3studio.com" target="_blank" rel='noreferrer'className="link-block-invert margin-right-0_5rem w-inline-block">
             <div>Crafted by Rd3studios</div>
             <div className="hover-line"></div>
           </a>
