@@ -16,7 +16,7 @@ class Nav extends Component {
             <h1 className="logo-serif">Tarf</h1>
 
           </a>
-          <ul role="list" className="navi-list-horizontal w-list-unstyled">
+          <ul  className="navi-list-horizontal w-list-unstyled">
 
             {navItems.map((items, i) => {
               return (<li className="margin-right-1rem padding-bottom-0" key={i}>

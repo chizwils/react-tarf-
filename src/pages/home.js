@@ -12,41 +12,41 @@ const home = () =>{
     <div style={{myStyle}} className="overflow-hidden">
     <div className="moving-img-wrapper">
       <div className="moving-img">
-        <a href="#" className="moving-img-small w-inline-block">
+        <div  className="moving-img-small w-inline-block">
           <div className="bg-img example-1"></div>
           <div className="moving-header-holder">
           </div>
-        </a>
-        <a href="#" className="moving-img-bigger w-inline-block">
+        </div>
+        <div className="moving-img-bigger w-inline-block">
           <div className="bg-img example-2"></div>
           <div className="moving-header-holder">
           </div>
-        </a>
-        <a href="#" className="moving-img-small w-inline-block">
+        </div>
+        <div  className="moving-img-small w-inline-block">
           <div className="bg-img example-3"></div>
           <div className="moving-header-holder">
           </div>
-        </a>
-        <a href="#" className="moving-img-bigger w-inline-block">
+        </div>
+        <div href="#" className="moving-img-bigger w-inline-block">
           <div className="bg-img example-4"></div>
           <div className="moving-header-holder">
           </div>
-        </a>
-        <a href="#" className="moving-img-small w-inline-block">
+        </div>
+        <div className="moving-img-small w-inline-block">
           <div className="bg-img example-5"></div>
           <div className="moving-header-holder">
           </div>
-        </a>
-        <a href="#" className="moving-img-bigger w-inline-block">
+        </div>
+        <div href="#" className="moving-img-bigger w-inline-block">
           <div className="bg-img example-6"></div>
           <div className="moving-header-holder">
           </div>
-        </a>
-        <a href="#" className="moving-img-small w-inline-block">
+        </div>
+        <div href="#" className="moving-img-small w-inline-block">
           <div className="bg-img example-7"></div>
           <div className="moving-header-holder">
           </div>
-        </a>
+        </div>
       </div>
     </div>
   </div>
