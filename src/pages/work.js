@@ -16,26 +16,26 @@ const work = () => {
         <div class="w-dyn-list">
           <div role="list" class="grid-project-category w-dyn-items">
             <div role="listitem" class="w-dyn-item">
-              <a href="#" class="hover-trigger w-inline-block">
+              <div href="#" class="hover-trigger w-inline-block">
                 <div class="img-size medium margin-bottom-1rem">
-                  <div class="bg-img"><img src="./images/3.jpg"/></div>
+                  <div class="bg-img"><img src="./images/3.jpg" alt=''/></div>
 
                 </div>
                 <div class="small"></div>
                 <div class="display-3"></div>
                 <div class="small"></div>
-              </a>
+              </div>
             </div>
             <div role="listitem" class="w-dyn-item">
-              <a href="#" class="hover-trigger w-inline-block">
+              <div href="#" class="hover-trigger w-inline-block">
                 <div class="img-size medium margin-bottom-1rem">
-                  <div class="bg-img"><img src="./images/3.jpg"/></div>
+                  <div class="bg-img"><img src="./images/3.jpg" alt=''/></div>
 
                 </div>
                 <div class="small"></div>
                 <div class="display-3"></div>
                 <div class="small"></div>
-              </a>
+              </div>
             </div>
 
           </div>
@@ -47,16 +47,16 @@ const work = () => {
       <div class="w-dyn-list">
         <div role="list" class="grid-project-category w-dyn-items">
           <div role="listitem" class="w-dyn-item">
-            <a data-w-id="1f02670a-69f3-651f-eb8c-a1d7c1f5c64d" style={{opacity:"0"}} href="#"
+            <div data-w-id="1f02670a-69f3-651f-eb8c-a1d7c1f5c64d" style={{opacity:"0"}} href="#"
               class="hover-trigger w-inline-block">
               <div class="img-size medium margin-bottom-1rem">
-                <div class="bg-img"><img src="./images/3.jpg"/></div>
+                <div class="bg-img"><img src="./images/3.jpg" alt = ''/></div>
 
               </div>
               <div class="small"></div>
               <div class="display-3"></div>
               <div class="small"></div>
-            </a>
+            </div>
           </div>
         </div>
         {/* <div class="alert danger w-dyn-empty">
