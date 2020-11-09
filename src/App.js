@@ -32,7 +32,7 @@ class App extends Component {
         <div className="main " style={{opacity: "0"}} ref={el=>(this.dev = el)}>
           <Nav/>
           <Switch>
-            <Route path='/' component={Home}/>
+            <Route exact path='/' component={Home}/>
             <Route path="/contact" component={Contact}/>
             <Route path="/work"component={Work}/>
           </Switch>
