@@ -1,10 +1,10 @@
-import { Component } from 'react';
+import React from 'react';
 
-class Contact extends Component {
+const Contact =()=> {
    // state = {  }
-    render() { 
+    
         return ( 
-          <div>
+          <div className="section padding-0 overflow-hidden">
             <div data-animation="slide" data-easing="ease-in-out-quart" data-hide-arrows="1" data-duration="1000" data-infinite="1" className="slider w-slider">
               <div className="mask-visible _75-percent w-slider-mask">
                 <div className="slide opacity-inactive w-slide">
@@ -49,6 +49,6 @@ class Contact extends Component {
           </div>
          );
     }
-}
+
  
 export default Contact;

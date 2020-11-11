@@ -9,7 +9,7 @@ import Contact from './pages/contact'
 import Work from './pages/work'
 //require ('./js/webflow')
 class App extends Component {
-  componentDidMount(){
+  componentWillMount(){
     const script1 = document.createElement("script");
     script1.async = true;
     script1.type = 'text/javascript'
@@ -33,8 +33,8 @@ class App extends Component {
           <Nav/>
           <Switch>
             <Route exact path='/' component={Home}/>
-            <Route path="/contact" component={Contact}/>
-            <Route path="/work"component={Work}/>
+            <Route exact path="/contact" component={Contact}/>
+            <Route exact path="/work"component={Work}/>
           </Switch>
           <Footer/>
           <div style={{display:"block"}} className="preloader-half-half">

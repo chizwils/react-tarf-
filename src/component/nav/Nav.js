@@ -8,7 +8,7 @@ class Nav extends Component {
   // }
 
   render() {
-   const navItems = [ { name: 'Home', link: '/' } , { name: 'Work', link: 'work' }, { name: 'Contact', link: '/contact' }, { name: 'Instagram', link: 'http://instagram.com' }, ]
+   const navItems = [ { name: 'Home', link: '/' } , { name: 'Work', link: '/work' }, { name: 'Contact', link: '/contact' }, { name: 'Instagram', link: 'http://instagram.com' }, ]
    return (
 
       <div data-collapse="medium" data-animation="default" data-duration="400" role="banner" className="navigation-small-one-row w-nav">
